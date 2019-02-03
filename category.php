@@ -4,7 +4,7 @@
   <div class="container">
 
     <div class="row-fluid">
-
+<h1>Listagem da categoria <?php single_cat_title(); ?></h1>
       <!-- Posts -->
       <div class="col-sm-9 blog-main" itemscope itemtype="http://schema.org/Article">
 

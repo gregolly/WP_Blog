@@ -8,6 +8,7 @@
       <!-- Posts -->
       <div class="col-sm-9 blog-main" itemscope itemtype="http://schema.org/Article">
 
+        <h2>Você buscou por:<?php echo esc_html(get_query_var('s')); ?></h2>
         <?php get_template_part('includes/loop', 'principal'); 
         ?>
 

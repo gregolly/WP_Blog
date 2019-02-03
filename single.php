@@ -7,8 +7,8 @@
 
       <!-- Posts -->
       <div class="col-sm-9 blog-main" itemscope itemtype="http://schema.org/Article">
-
-        <?php get_template_part('includes/loop', 'principal'); 
+      <h1>Post unico</h1>
+        <?php get_template_part('includes/post', 'unico'); 
         ?>
 
       </div>

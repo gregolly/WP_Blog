@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+get_header();
+/*
+  Template Name: Sem sidebar
+*/
+?>
 
  <!-- Container -->
   <div class="container">
@@ -6,15 +11,13 @@
     <div class="row-fluid">
 
       <!-- Posts -->
-      <div class="col-sm-9 blog-main" itemscope itemtype="http://schema.org/Article">
+      <div class="col-sm-12 blog-main" itemscope itemtype="http://schema.org/Article">
 
-        <?php get_template_part('includes/loop', 'principal'); 
+        <?php get_template_part('includes/pagina', 'unica'); 
         ?>
 
       </div>
       <!-- Posts -->
-
-      <?php get_sidebar(); ?>
 
     </div>
   </div>

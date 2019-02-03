@@ -8,7 +8,7 @@
       <!-- Posts -->
       <div class="col-sm-9 blog-main" itemscope itemtype="http://schema.org/Article">
 
-        <?php get_template_part('includes/loop', 'principal'); 
+        <?php get_template_part('includes/pagina', 'unica'); 
         ?>
 
       </div>

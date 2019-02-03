@@ -1,9 +1,20 @@
 /*
-Theme Name: Blog theme
-Theme URI: http://wordpress.org/themes/twentythirteen
-Author: Gregolly frança
-Author URI: http://wordpress.org/
-Description: Blog para fixar aprendizagem em wordpress
-version: 1.0
-
+	Theme Name: Treinaweb Tema
+	Theme URI: http://www.treinaweb.com.br/
+	Author: Treinaweb Cursos
+	Author URI: http://www.treinaweb.com.br/
+	Description: Tema completamente desenvolvido durante o curso de desenvolvimento de temas WordPress
+	Version: 1.0
+	Tags: treinaweb, cursos, WordPress
+	Text Domain: treinaweb-tema
 */
+label.screen-reader-text{
+	display: none;
+	font-size: 50px;
+}
+*{
+	box-sizing: border-box;
+}
+#searchform{
+	display: inline-block !important;
+}
