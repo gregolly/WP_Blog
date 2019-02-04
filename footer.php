@@ -28,6 +28,7 @@
         <div class="rodape-copyright text-center">
         <hr>
             <p>&copy; TreinaWeb Cursos 2015</p>
+            <img src="images/android.png" alt="">
         </div>
     </div>
 </footer>

@@ -1,7 +1,15 @@
 html {
     background: #F5F5F5;
 }
-
+label.screen-reader-text{
+	display: none !important;
+}
+*{
+	box-sizing: border-box;
+}
+#searchform{
+	display: inline-block !important;
+}
 h1 {
     margin-bottom: 15px;
 }

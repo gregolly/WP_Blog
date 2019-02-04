@@ -8,13 +8,3 @@
 	Tags: treinaweb, cursos, WordPress
 	Text Domain: treinaweb-tema
 */
-label.screen-reader-text{
-	display: none;
-	font-size: 50px;
-}
-*{
-	box-sizing: border-box;
-}
-#searchform{
-	display: inline-block !important;
-}
