@@ -1,9 +1,10 @@
 <?php 
-get_header();
-/*
-  Template Name: Sem sidebar
-*/
+	/*
+		Template Name: Sem sidebar
+	*/
 ?>
+
+<?php get_header(); ?>
 
  <!-- Container -->
   <div class="container">
@@ -13,8 +14,7 @@ get_header();
       <!-- Posts -->
       <div class="col-sm-12 blog-main" itemscope itemtype="http://schema.org/Article">
 
-        <?php get_template_part('includes/pagina', 'unica'); 
-        ?>
+        <?php get_template_part('includes/pagina', 'unica'); ?>
 
       </div>
       <!-- Posts -->

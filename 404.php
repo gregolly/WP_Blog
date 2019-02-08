@@ -8,8 +8,8 @@
       <!-- Posts -->
       <div class="col-sm-9 blog-main" itemscope itemtype="http://schema.org/Article">
 
-        <h1>Página não encontrada error(404).</h1>
-        <p>Mudou o endereço ou não existe, por favor use os menus para navegar.</p>
+        <h1>Página não encontrada erro(404)</h1>
+        <p>A página que você procura mudou o endereço ou não existe, por favor, use os menus para navegar.</p>
 
       </div>
       <!-- Posts -->

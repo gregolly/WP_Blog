@@ -1,7 +1,11 @@
 
 <?php while(have_posts()) : the_post(); ?>
 <!-- post -->
-<article class="row-fluid posts" role="article">
+<?php if(get_post_format() == 'aside') : ?>
+<article class="row-fluid posts" role="article" style="background-color: grey;">
+<?php else : ?>
+<article class="row-fluid posts" role="article" style="background-color: grey;">
+<?php endif; ?>
           <h2 itemprop="name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
           <p class="muted">
             <span>Publicado em</span>
@@ -19,6 +23,12 @@
           </p>
 </article>
 
+
         <!--/post -->
 
 <?php endwhile; ?>
+
+<?php //previous_posts_link('<< Novos   Posts'); 
+if (function_exists('wp_bootstrap_pagination') ) wp_bootstrap_pagination();
+?> 
+<!--next_posts_link('Posts Antigos >>');  -->

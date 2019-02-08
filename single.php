@@ -7,9 +7,10 @@
 
       <!-- Posts -->
       <div class="col-sm-9 blog-main" itemscope itemtype="http://schema.org/Article">
-      <h1>Post unico</h1>
-        <?php get_template_part('includes/post', 'unico'); 
-        ?>
+
+        <h1>Post único</h1>
+
+        <?php get_template_part('includes/post', 'unico'); ?>
 
       </div>
       <!-- Posts -->

@@ -6,10 +6,13 @@
     <div class="row-fluid">
 
       <!-- Posts -->
-      <div class="col-sm-9 blog-main" itemscope itemtype="http://schema.org/Article">
+      <?php if (is_active_sidebar('tw-sidebar')) : ?>
+        <div class="col-sm-9 blog-main" itemscope itemtype="http://schema.org/Article">
+      <?php else : ?> 
+        <div class="col-sm-12 blog-main" itemscope itemtype="http://schema.org/Article">
+      <?php endif;?>
 
-        <?php get_template_part('includes/loop', 'principal'); 
-        ?>
+        <?php get_template_part('includes/loop', 'principal'); ?>
 
       </div>
       <!-- Posts -->
